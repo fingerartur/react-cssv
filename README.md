@@ -16,5 +16,8 @@ is forever, whereas feature toggles are just temporary (usually used for A/B tes
 - consider passing every decision via a prop!
 - a strong subfolder structure for decisions!
 
-### Alternatives ###
+## Alternatives ##
 - fully lazy decisions - load each subcomponent only when it is accessed. This would save bandwith, but I don't care about that really, it's much more important to me that the user doesn't have to wait for multiple loading spinners in a row, that would be very user-unfriendly (for the specific application that I have in mind).
+
+## Side notes ##
+- the use of pure JS is for experimental purposes only, a serious application sould use TS or something similar
