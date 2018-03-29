@@ -10,8 +10,7 @@ CSSV implemented with the DRY principle in mind, one git repo, one server. The i
 
 ## How is it done ##
 - leverages [webpack's code-splitting](https://webpack.js.org/guides/code-splitting/)
-- is inspired by Martin Fowler's [article on feature toggles](https://martinfowler.com/articles/feature-toggles.html), however the difference between CSSV and feature toggles CSSV
-is forever, whereas feature toggles are just temporary (usually used for A/B testing and nothing else). 
+- is inspired by Martin Fowler's [article on feature toggles](https://martinfowler.com/articles/feature-toggles.html), however the difference between CSSV and feature toggles is that CSSV is meant to last forever, whereas feature toggles are just temporary (usually used for A/B testing for maybe a month and then removed from the code base). 
 
 ## TODO ##
 - show how testing would work
