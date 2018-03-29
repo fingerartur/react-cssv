@@ -6,6 +6,8 @@ CSSV implemented with the DRY principle in mind, one git repo, one server. The i
 - user logs in, his config is loaded from server, specific application for the user opens
 - implemented in React with the help of create-react-app
 
+![CSSV](cssv.gif "CSSV")
+
 ## How is it done ##
 - leverages [webpack's code-splitting](https://webpack.js.org/guides/code-splitting/)
 - is inspired by Martin Fowler's [article on feature toggles](https://martinfowler.com/articles/feature-toggles.html), however the difference between CSSV and feature toggles CSSV
